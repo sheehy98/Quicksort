@@ -1,0 +1,2909 @@
+Enter lower bound of N: 2^14
+
+Enter upper bound of N: 2^18
+
+Enter number of tests: 100
+
+N = 16384:
+	Doubles:
+		Cutoff to Insertion:
+			Average Execution Time 0.00360 seconds
+
+			Min Comparisons: 239668
+			Avg Comparisons: 249812
+			Max Comparisons: 272313
+
+			Min Exchanges: 62962
+			Avg Exchanges: 64231
+			Max Exchanges: 64971
+
+		Median of Three Partition:
+			Average Execution Time 0.00321 seconds
+
+			Min Comparisons: 237576
+			Avg Comparisons: 249353
+			Max Comparisons: 263708
+
+			Min Exchanges: 63388
+			Avg Exchanges: 64203
+			Max Exchanges: 65116
+
+		Three-way Partition:
+			Average Execution Time 0.00540 seconds
+
+			Min Comparisons: 252118
+			Avg Comparisons: 271936
+			Max Comparisons: 306991
+
+			Min Exchanges: 252118
+			Avg Exchanges: 271936
+			Max Exchanges: 306991
+
+	Strings:
+		Cutoff to Insertion:
+			Average Execution Time 0.00902 seconds
+
+			Min Comparisons: 240517
+			Avg Comparisons: 250015
+			Max Comparisons: 277034
+
+			Min Exchanges: 62918
+			Avg Exchanges: 64116
+			Max Exchanges: 64737
+
+		Median of Three Partition:
+			Average Execution Time 0.00908 seconds
+
+			Min Comparisons: 240866
+			Avg Comparisons: 249623
+			Max Comparisons: 264232
+
+			Min Exchanges: 63159
+			Avg Exchanges: 64126
+			Max Exchanges: 64777
+
+		Three-way Partition:
+			Average Execution Time 0.01186 seconds
+
+			Min Comparisons: 253291
+			Avg Comparisons: 272840
+			Max Comparisons: 323110
+
+			Min Exchanges: 252843
+			Avg Exchanges: 272433
+			Max Exchanges: 322719
+
+	Integers:
+		k = 2
+			Cutoff to Insertion:
+				Average Execution Time 0.00408 seconds
+
+				Min Comparisons: 233429
+				Avg Comparisons: 245551
+				Max Comparisons: 261254
+
+				Min Exchanges: 60359
+				Avg Exchanges: 61151
+				Max Exchanges: 62042
+
+			Median of Three Partition:
+				Average Execution Time 0.00375 seconds
+
+				Min Comparisons: 235044
+				Avg Comparisons: 244940
+				Max Comparisons: 264228
+
+				Min Exchanges: 60156
+				Avg Exchanges: 61225
+				Max Exchanges: 61949
+
+			Three-way Partition:
+				Average Execution Time 0.00482 seconds
+
+				Min Comparisons: 229709
+				Avg Comparisons: 247694
+				Max Comparisons: 279768
+
+				Min Exchanges: 220437
+				Avg Exchanges: 238391
+				Max Exchanges: 270483
+
+		k = 3
+			Cutoff to Insertion:
+				Average Execution Time 0.00344 seconds
+
+				Min Comparisons: 234772
+				Avg Comparisons: 243581
+				Max Comparisons: 265465
+
+				Min Exchanges: 59349
+				Avg Exchanges: 60266
+				Max Exchanges: 61059
+
+			Median of Three Partition:
+				Average Execution Time 0.00362 seconds
+
+				Min Comparisons: 232865
+				Avg Comparisons: 243884
+				Max Comparisons: 272207
+
+				Min Exchanges: 59225
+				Avg Exchanges: 60230
+				Max Exchanges: 61316
+
+			Three-way Partition:
+				Average Execution Time 0.00443 seconds
+
+				Min Comparisons: 221767
+				Avg Comparisons: 240070
+				Max Comparisons: 276834
+
+				Min Exchanges: 210609
+				Avg Exchanges: 228878
+				Max Exchanges: 265634
+
+		k = 4
+			Cutoff to Insertion:
+				Average Execution Time 0.00345 seconds
+
+				Min Comparisons: 234827
+				Avg Comparisons: 242812
+				Max Comparisons: 265871
+
+				Min Exchanges: 58899
+				Avg Exchanges: 59578
+				Max Exchanges: 60318
+
+			Median of Three Partition:
+				Average Execution Time 0.00358 seconds
+
+				Min Comparisons: 231762
+				Avg Comparisons: 242355
+				Max Comparisons: 267328
+
+				Min Exchanges: 58487
+				Avg Exchanges: 59596
+				Max Exchanges: 60655
+
+			Three-way Partition:
+				Average Execution Time 0.00423 seconds
+
+				Min Comparisons: 214147
+				Avg Comparisons: 234250
+				Max Comparisons: 269741
+
+				Min Exchanges: 201776
+				Avg Exchanges: 221887
+				Max Exchanges: 257366
+
+		k = 5
+			Cutoff to Insertion:
+				Average Execution Time 0.00343 seconds
+
+				Min Comparisons: 231594
+				Avg Comparisons: 241615
+				Max Comparisons: 267576
+
+				Min Exchanges: 57759
+				Avg Exchanges: 59151
+				Max Exchanges: 59870
+
+			Median of Three Partition:
+				Average Execution Time 0.00357 seconds
+
+				Min Comparisons: 231672
+				Avg Comparisons: 240396
+				Max Comparisons: 252584
+
+				Min Exchanges: 58392
+				Avg Exchanges: 59205
+				Max Exchanges: 59772
+
+			Three-way Partition:
+				Average Execution Time 0.00407 seconds
+
+				Min Comparisons: 204661
+				Avg Comparisons: 227068
+				Max Comparisons: 260658
+
+				Min Exchanges: 191526
+				Avg Exchanges: 213938
+				Max Exchanges: 247533
+
+		k = 6
+			Cutoff to Insertion:
+				Average Execution Time 0.00341 seconds
+
+				Min Comparisons: 229575
+				Avg Comparisons: 240578
+				Max Comparisons: 256529
+
+				Min Exchanges: 57997
+				Avg Exchanges: 58890
+				Max Exchanges: 59837
+
+			Median of Three Partition:
+				Average Execution Time 0.00342 seconds
+
+				Min Comparisons: 230541
+				Avg Comparisons: 240529
+				Max Comparisons: 263220
+
+				Min Exchanges: 57992
+				Avg Exchanges: 58909
+				Max Exchanges: 59682
+
+			Three-way Partition:
+				Average Execution Time 0.00397 seconds
+
+				Min Comparisons: 203488
+				Avg Comparisons: 221678
+				Max Comparisons: 253210
+
+				Min Exchanges: 189825
+				Avg Exchanges: 208018
+				Max Exchanges: 239547
+
+		k = 7
+			Cutoff to Insertion:
+				Average Execution Time 0.00333 seconds
+
+				Min Comparisons: 230495
+				Avg Comparisons: 239545
+				Max Comparisons: 258408
+
+				Min Exchanges: 57704
+				Avg Exchanges: 58698
+				Max Exchanges: 59366
+
+			Median of Three Partition:
+				Average Execution Time 0.00351 seconds
+
+				Min Comparisons: 230505
+				Avg Comparisons: 238755
+				Max Comparisons: 255209
+
+				Min Exchanges: 57641
+				Avg Exchanges: 58765
+				Max Exchanges: 59518
+
+			Three-way Partition:
+				Average Execution Time 0.00397 seconds
+
+				Min Comparisons: 201426
+				Avg Comparisons: 220321
+				Max Comparisons: 263301
+
+				Min Exchanges: 187381
+				Avg Exchanges: 206275
+				Max Exchanges: 249255
+
+		k = 8
+			Cutoff to Insertion:
+				Average Execution Time 0.00338 seconds
+
+				Min Comparisons: 227503
+				Avg Comparisons: 238880
+				Max Comparisons: 255636
+
+				Min Exchanges: 57893
+				Avg Exchanges: 58589
+				Max Exchanges: 59450
+
+			Median of Three Partition:
+				Average Execution Time 0.00354 seconds
+
+				Min Comparisons: 228802
+				Avg Comparisons: 237872
+				Max Comparisons: 258566
+
+				Min Exchanges: 57627
+				Avg Exchanges: 58632
+				Max Exchanges: 59202
+
+			Three-way Partition:
+				Average Execution Time 0.00390 seconds
+
+				Min Comparisons: 196246
+				Avg Comparisons: 215644
+				Max Comparisons: 271936
+
+				Min Exchanges: 181910
+				Avg Exchanges: 201307
+				Max Exchanges: 257599
+
+		k = 9
+			Cutoff to Insertion:
+				Average Execution Time 0.00333 seconds
+
+				Min Comparisons: 228829
+				Avg Comparisons: 236872
+				Max Comparisons: 255650
+
+				Min Exchanges: 57755
+				Avg Exchanges: 58512
+				Max Exchanges: 59051
+
+			Median of Three Partition:
+				Average Execution Time 0.00349 seconds
+
+				Min Comparisons: 227765
+				Avg Comparisons: 238850
+				Max Comparisons: 256685
+
+				Min Exchanges: 57665
+				Avg Exchanges: 58437
+				Max Exchanges: 59262
+
+			Three-way Partition:
+				Average Execution Time 0.00376 seconds
+
+				Min Comparisons: 194169
+				Avg Comparisons: 212379
+				Max Comparisons: 249198
+
+				Min Exchanges: 179604
+				Avg Exchanges: 197815
+				Max Exchanges: 234633
+
+		k = 10
+			Cutoff to Insertion:
+				Average Execution Time 0.00337 seconds
+
+				Min Comparisons: 228729
+				Avg Comparisons: 237944
+				Max Comparisons: 260687
+
+				Min Exchanges: 57233
+				Avg Exchanges: 58337
+				Max Exchanges: 59038
+
+			Median of Three Partition:
+				Average Execution Time 0.00345 seconds
+
+				Min Comparisons: 226699
+				Avg Comparisons: 237252
+				Max Comparisons: 251037
+
+				Min Exchanges: 57557
+				Avg Exchanges: 58374
+				Max Exchanges: 58967
+
+			Three-way Partition:
+				Average Execution Time 0.00373 seconds
+
+				Min Comparisons: 189107
+				Avg Comparisons: 209462
+				Max Comparisons: 246306
+
+				Min Exchanges: 174361
+				Avg Exchanges: 194716
+				Max Exchanges: 231560
+
+		k = 11
+			Cutoff to Insertion:
+				Average Execution Time 0.00328 seconds
+
+				Min Comparisons: 227870
+				Avg Comparisons: 236492
+				Max Comparisons: 255961
+
+				Min Exchanges: 57253
+				Avg Exchanges: 58211
+				Max Exchanges: 58762
+
+			Median of Three Partition:
+				Average Execution Time 0.00339 seconds
+
+				Min Comparisons: 227124
+				Avg Comparisons: 236644
+				Max Comparisons: 253511
+
+				Min Exchanges: 57120
+				Avg Exchanges: 58199
+				Max Exchanges: 58890
+
+			Three-way Partition:
+				Average Execution Time 0.00371 seconds
+
+				Min Comparisons: 184331
+				Avg Comparisons: 207676
+				Max Comparisons: 261004
+
+				Min Exchanges: 169436
+				Avg Exchanges: 192781
+				Max Exchanges: 246109
+
+		k = 12
+			Cutoff to Insertion:
+				Average Execution Time 0.00335 seconds
+
+				Min Comparisons: 229356
+				Avg Comparisons: 236897
+				Max Comparisons: 255683
+
+				Min Exchanges: 57235
+				Avg Exchanges: 58063
+				Max Exchanges: 58602
+
+			Median of Three Partition:
+				Average Execution Time 0.00341 seconds
+
+				Min Comparisons: 224836
+				Avg Comparisons: 236169
+				Max Comparisons: 248717
+
+				Min Exchanges: 57180
+				Avg Exchanges: 58105
+				Max Exchanges: 58986
+
+			Three-way Partition:
+				Average Execution Time 0.00373 seconds
+
+				Min Comparisons: 184145
+				Avg Comparisons: 203588
+				Max Comparisons: 237322
+
+				Min Exchanges: 169126
+				Avg Exchanges: 188569
+				Max Exchanges: 222303
+
+		k = 13
+			Cutoff to Insertion:
+				Average Execution Time 0.00329 seconds
+
+				Min Comparisons: 224909
+				Avg Comparisons: 235530
+				Max Comparisons: 249619
+
+				Min Exchanges: 57110
+				Avg Exchanges: 58006
+				Max Exchanges: 58678
+
+			Median of Three Partition:
+				Average Execution Time 0.00333 seconds
+
+				Min Comparisons: 226329
+				Avg Comparisons: 236593
+				Max Comparisons: 260673
+
+				Min Exchanges: 57029
+				Avg Exchanges: 57947
+				Max Exchanges: 58657
+
+			Three-way Partition:
+				Average Execution Time 0.00358 seconds
+
+				Min Comparisons: 180835
+				Avg Comparisons: 199356
+				Max Comparisons: 255038
+
+				Min Exchanges: 165711
+				Avg Exchanges: 184232
+				Max Exchanges: 239914
+
+		k = 14
+			Cutoff to Insertion:
+				Average Execution Time 0.00321 seconds
+
+				Min Comparisons: 225666
+				Avg Comparisons: 235010
+				Max Comparisons: 254686
+
+				Min Exchanges: 56881
+				Avg Exchanges: 57964
+				Max Exchanges: 58593
+
+			Median of Three Partition:
+				Average Execution Time 0.00337 seconds
+
+				Min Comparisons: 225956
+				Avg Comparisons: 235111
+				Max Comparisons: 249175
+
+				Min Exchanges: 57195
+				Avg Exchanges: 57939
+				Max Exchanges: 58752
+
+			Three-way Partition:
+				Average Execution Time 0.00353 seconds
+
+				Min Comparisons: 180976
+				Avg Comparisons: 198534
+				Max Comparisons: 229526
+
+				Min Exchanges: 165762
+				Avg Exchanges: 183320
+				Max Exchanges: 214312
+
+		k = 15
+			Cutoff to Insertion:
+				Average Execution Time 0.00330 seconds
+
+				Min Comparisons: 225857
+				Avg Comparisons: 235973
+				Max Comparisons: 269281
+
+				Min Exchanges: 56405
+				Avg Exchanges: 57827
+				Max Exchanges: 58540
+
+			Median of Three Partition:
+				Average Execution Time 0.00333 seconds
+
+				Min Comparisons: 226094
+				Avg Comparisons: 235500
+				Max Comparisons: 252747
+
+				Min Exchanges: 57099
+				Avg Exchanges: 57875
+				Max Exchanges: 58531
+
+			Three-way Partition:
+				Average Execution Time 0.00357 seconds
+
+				Min Comparisons: 177336
+				Avg Comparisons: 196633
+				Max Comparisons: 241412
+
+				Min Exchanges: 162044
+				Avg Exchanges: 181341
+				Max Exchanges: 226120
+
+		k = 16
+			Cutoff to Insertion:
+				Average Execution Time 0.00335 seconds
+
+				Min Comparisons: 225275
+				Avg Comparisons: 235079
+				Max Comparisons: 257013
+
+				Min Exchanges: 56848
+				Avg Exchanges: 57834
+				Max Exchanges: 58521
+
+			Median of Three Partition:
+				Average Execution Time 0.00339 seconds
+
+				Min Comparisons: 222500
+				Avg Comparisons: 234381
+				Max Comparisons: 252533
+
+				Min Exchanges: 56893
+				Avg Exchanges: 57853
+				Max Exchanges: 58695
+
+			Three-way Partition:
+				Average Execution Time 0.00348 seconds
+
+				Min Comparisons: 178746
+				Avg Comparisons: 193299
+				Max Comparisons: 216429
+
+				Min Exchanges: 163386
+				Avg Exchanges: 177939
+				Max Exchanges: 201069
+
+
+N = 32768:
+	Doubles:
+		Cutoff to Insertion:
+			Average Execution Time 0.00840 seconds
+
+			Min Comparisons: 521982
+			Avg Comparisons: 538068
+			Max Comparisons: 578855
+
+			Min Exchanges: 133532
+			Avg Exchanges: 136174
+			Max Exchanges: 137291
+
+		Median of Three Partition:
+			Average Execution Time 0.00859 seconds
+
+			Min Comparisons: 514263
+			Avg Comparisons: 538509
+			Max Comparisons: 568887
+
+			Min Exchanges: 134685
+			Avg Exchanges: 136201
+			Max Exchanges: 137817
+
+		Three-way Partition:
+			Average Execution Time 0.01239 seconds
+
+			Min Comparisons: 558049
+			Avg Comparisons: 589581
+			Max Comparisons: 697791
+
+			Min Exchanges: 558049
+			Avg Exchanges: 589581
+			Max Exchanges: 697791
+
+	Strings:
+		Cutoff to Insertion:
+			Average Execution Time 0.01906 seconds
+
+			Min Comparisons: 519416
+			Avg Comparisons: 536983
+			Max Comparisons: 575042
+
+			Min Exchanges: 134003
+			Avg Exchanges: 135853
+			Max Exchanges: 137374
+
+		Median of Three Partition:
+			Average Execution Time 0.01923 seconds
+
+			Min Comparisons: 517881
+			Avg Comparisons: 539563
+			Max Comparisons: 573608
+
+			Min Exchanges: 133908
+			Avg Exchanges: 135758
+			Max Exchanges: 137016
+
+		Three-way Partition:
+			Average Execution Time 0.02535 seconds
+
+			Min Comparisons: 557172
+			Avg Comparisons: 586132
+			Max Comparisons: 672072
+
+			Min Exchanges: 555589
+			Avg Exchanges: 584520
+			Max Exchanges: 670399
+
+	Integers:
+		k = 2
+			Cutoff to Insertion:
+				Average Execution Time 0.00851 seconds
+
+				Min Comparisons: 507432
+				Avg Comparisons: 529741
+				Max Comparisons: 567045
+
+				Min Exchanges: 128194
+				Avg Exchanges: 130098
+				Max Exchanges: 131434
+
+			Median of Three Partition:
+				Average Execution Time 0.00887 seconds
+
+				Min Comparisons: 509452
+				Avg Comparisons: 532250
+				Max Comparisons: 579566
+
+				Min Exchanges: 127464
+				Avg Exchanges: 130023
+				Max Exchanges: 131309
+
+			Three-way Partition:
+				Average Execution Time 0.01197 seconds
+
+				Min Comparisons: 506506
+				Avg Comparisons: 543129
+				Max Comparisons: 610895
+
+				Min Exchanges: 487915
+				Avg Exchanges: 524525
+				Max Exchanges: 592253
+
+		k = 3
+			Cutoff to Insertion:
+				Average Execution Time 0.00901 seconds
+
+				Min Comparisons: 506594
+				Avg Comparisons: 526235
+				Max Comparisons: 555474
+
+				Min Exchanges: 126201
+				Avg Exchanges: 128214
+				Max Exchanges: 129723
+
+			Median of Three Partition:
+				Average Execution Time 0.00952 seconds
+
+				Min Comparisons: 508525
+				Avg Comparisons: 525904
+				Max Comparisons: 560104
+
+				Min Exchanges: 126686
+				Avg Exchanges: 128332
+				Max Exchanges: 129407
+
+			Three-way Partition:
+				Average Execution Time 0.01204 seconds
+
+				Min Comparisons: 488766
+				Avg Comparisons: 522559
+				Max Comparisons: 574295
+
+				Min Exchanges: 466363
+				Avg Exchanges: 500175
+				Max Exchanges: 551942
+
+		k = 4
+			Cutoff to Insertion:
+				Average Execution Time 0.00824 seconds
+
+				Min Comparisons: 505400
+				Avg Comparisons: 521790
+				Max Comparisons: 570290
+
+				Min Exchanges: 125296
+				Avg Exchanges: 127082
+				Max Exchanges: 128149
+
+			Median of Three Partition:
+				Average Execution Time 0.00860 seconds
+
+				Min Comparisons: 504406
+				Avg Comparisons: 523492
+				Max Comparisons: 563134
+
+				Min Exchanges: 125164
+				Avg Exchanges: 127012
+				Max Exchanges: 128029
+
+			Three-way Partition:
+				Average Execution Time 0.01080 seconds
+
+				Min Comparisons: 471728
+				Avg Comparisons: 509034
+				Max Comparisons: 565867
+
+				Min Exchanges: 446993
+				Avg Exchanges: 484306
+				Max Exchanges: 541119
+
+		k = 5
+			Cutoff to Insertion:
+				Average Execution Time 0.01205 seconds
+
+				Min Comparisons: 499903
+				Avg Comparisons: 520619
+				Max Comparisons: 557774
+
+				Min Exchanges: 124081
+				Avg Exchanges: 126234
+				Max Exchanges: 127705
+
+			Median of Three Partition:
+				Average Execution Time 0.01234 seconds
+
+				Min Comparisons: 497668
+				Avg Comparisons: 520674
+				Max Comparisons: 562086
+
+				Min Exchanges: 124514
+				Avg Exchanges: 126198
+				Max Exchanges: 127555
+
+			Three-way Partition:
+				Average Execution Time 0.01522 seconds
+
+				Min Comparisons: 455786
+				Avg Comparisons: 499947
+				Max Comparisons: 603662
+
+				Min Exchanges: 429520
+				Avg Exchanges: 473688
+				Max Exchanges: 577408
+
+		k = 6
+			Cutoff to Insertion:
+				Average Execution Time 0.01203 seconds
+
+				Min Comparisons: 498523
+				Avg Comparisons: 520075
+				Max Comparisons: 552175
+
+				Min Exchanges: 124196
+				Avg Exchanges: 125605
+				Max Exchanges: 127068
+
+			Median of Three Partition:
+				Average Execution Time 0.01245 seconds
+
+				Min Comparisons: 503072
+				Avg Comparisons: 519000
+				Max Comparisons: 550456
+
+				Min Exchanges: 124153
+				Avg Exchanges: 125638
+				Max Exchanges: 126745
+
+			Three-way Partition:
+				Average Execution Time 0.01611 seconds
+
+				Min Comparisons: 452631
+				Avg Comparisons: 491630
+				Max Comparisons: 543330
+
+				Min Exchanges: 425305
+				Avg Exchanges: 464309
+				Max Exchanges: 516012
+
+		k = 7
+			Cutoff to Insertion:
+				Average Execution Time 0.01276 seconds
+
+				Min Comparisons: 498364
+				Avg Comparisons: 517498
+				Max Comparisons: 547766
+
+				Min Exchanges: 123973
+				Avg Exchanges: 125260
+				Max Exchanges: 126409
+
+			Median of Three Partition:
+				Average Execution Time 0.01360 seconds
+
+				Min Comparisons: 500267
+				Avg Comparisons: 516750
+				Max Comparisons: 546381
+
+				Min Exchanges: 123953
+				Avg Exchanges: 125237
+				Max Exchanges: 126328
+
+			Three-way Partition:
+				Average Execution Time 0.01763 seconds
+
+				Min Comparisons: 444797
+				Avg Comparisons: 483279
+				Max Comparisons: 526740
+
+				Min Exchanges: 416706
+				Avg Exchanges: 455187
+				Max Exchanges: 498646
+
+		k = 8
+			Cutoff to Insertion:
+				Average Execution Time 0.01118 seconds
+
+				Min Comparisons: 498959
+				Avg Comparisons: 516746
+				Max Comparisons: 559061
+
+				Min Exchanges: 122783
+				Avg Exchanges: 124948
+				Max Exchanges: 126137
+
+			Median of Three Partition:
+				Average Execution Time 0.01204 seconds
+
+				Min Comparisons: 498148
+				Avg Comparisons: 516892
+				Max Comparisons: 582395
+
+				Min Exchanges: 122909
+				Avg Exchanges: 124922
+				Max Exchanges: 126436
+
+			Three-way Partition:
+				Average Execution Time 0.01407 seconds
+
+				Min Comparisons: 435379
+				Avg Comparisons: 475973
+				Max Comparisons: 526129
+
+				Min Exchanges: 406706
+				Avg Exchanges: 447300
+				Max Exchanges: 497456
+
+		k = 9
+			Cutoff to Insertion:
+				Average Execution Time 0.01184 seconds
+
+				Min Comparisons: 493340
+				Avg Comparisons: 515345
+				Max Comparisons: 556855
+
+				Min Exchanges: 122878
+				Avg Exchanges: 124687
+				Max Exchanges: 126086
+
+			Median of Three Partition:
+				Average Execution Time 0.01191 seconds
+
+				Min Comparisons: 498378
+				Avg Comparisons: 514950
+				Max Comparisons: 551133
+
+				Min Exchanges: 122219
+				Avg Exchanges: 124648
+				Max Exchanges: 125783
+
+			Three-way Partition:
+				Average Execution Time 0.01535 seconds
+
+				Min Comparisons: 431620
+				Avg Comparisons: 466514
+				Max Comparisons: 556784
+
+				Min Exchanges: 402490
+				Avg Exchanges: 437386
+				Max Exchanges: 527656
+
+		k = 10
+			Cutoff to Insertion:
+				Average Execution Time 0.01023 seconds
+
+				Min Comparisons: 493428
+				Avg Comparisons: 512324
+				Max Comparisons: 544758
+
+				Min Exchanges: 122960
+				Avg Exchanges: 124527
+				Max Exchanges: 126009
+
+			Median of Three Partition:
+				Average Execution Time 0.01092 seconds
+
+				Min Comparisons: 491560
+				Avg Comparisons: 512546
+				Max Comparisons: 543564
+
+				Min Exchanges: 122924
+				Avg Exchanges: 124545
+				Max Exchanges: 125856
+
+			Three-way Partition:
+				Average Execution Time 0.01486 seconds
+
+				Min Comparisons: 421805
+				Avg Comparisons: 464095
+				Max Comparisons: 535376
+
+				Min Exchanges: 392313
+				Avg Exchanges: 434603
+				Max Exchanges: 505884
+
+		k = 11
+			Cutoff to Insertion:
+				Average Execution Time 0.01199 seconds
+
+				Min Comparisons: 492597
+				Avg Comparisons: 510715
+				Max Comparisons: 550005
+
+				Min Exchanges: 122211
+				Avg Exchanges: 124300
+				Max Exchanges: 125520
+
+			Median of Three Partition:
+				Average Execution Time 0.01188 seconds
+
+				Min Comparisons: 495220
+				Avg Comparisons: 512397
+				Max Comparisons: 537854
+
+				Min Exchanges: 122846
+				Avg Exchanges: 124246
+				Max Exchanges: 125318
+
+			Three-way Partition:
+				Average Execution Time 0.01381 seconds
+
+				Min Comparisons: 412865
+				Avg Comparisons: 457990
+				Max Comparisons: 544957
+
+				Min Exchanges: 383075
+				Avg Exchanges: 428200
+				Max Exchanges: 515167
+
+		k = 12
+			Cutoff to Insertion:
+				Average Execution Time 0.00826 seconds
+
+				Min Comparisons: 489483
+				Avg Comparisons: 513086
+				Max Comparisons: 555586
+
+				Min Exchanges: 121680
+				Avg Exchanges: 123935
+				Max Exchanges: 125727
+
+			Median of Three Partition:
+				Average Execution Time 0.00858 seconds
+
+				Min Comparisons: 492699
+				Avg Comparisons: 512121
+				Max Comparisons: 550716
+
+				Min Exchanges: 121520
+				Avg Exchanges: 123991
+				Max Exchanges: 125381
+
+			Three-way Partition:
+				Average Execution Time 0.00969 seconds
+
+				Min Comparisons: 414470
+				Avg Comparisons: 450025
+				Max Comparisons: 525261
+
+				Min Exchanges: 384432
+				Avg Exchanges: 419987
+				Max Exchanges: 495223
+
+		k = 13
+			Cutoff to Insertion:
+				Average Execution Time 0.01202 seconds
+
+				Min Comparisons: 489755
+				Avg Comparisons: 509577
+				Max Comparisons: 534895
+
+				Min Exchanges: 122500
+				Avg Exchanges: 123846
+				Max Exchanges: 125076
+
+			Median of Three Partition:
+				Average Execution Time 0.01223 seconds
+
+				Min Comparisons: 493382
+				Avg Comparisons: 512294
+				Max Comparisons: 546335
+
+				Min Exchanges: 121763
+				Avg Exchanges: 123727
+				Max Exchanges: 124943
+
+			Three-way Partition:
+				Average Execution Time 0.01460 seconds
+
+				Min Comparisons: 405907
+				Avg Comparisons: 444102
+				Max Comparisons: 498487
+
+				Min Exchanges: 375659
+				Avg Exchanges: 413854
+				Max Exchanges: 468239
+
+		k = 14
+			Cutoff to Insertion:
+				Average Execution Time 0.00997 seconds
+
+				Min Comparisons: 492102
+				Avg Comparisons: 510216
+				Max Comparisons: 554314
+
+				Min Exchanges: 121870
+				Avg Exchanges: 123641
+				Max Exchanges: 124767
+
+			Median of Three Partition:
+				Average Execution Time 0.01082 seconds
+
+				Min Comparisons: 487890
+				Avg Comparisons: 509371
+				Max Comparisons: 560039
+
+				Min Exchanges: 121120
+				Avg Exchanges: 123662
+				Max Exchanges: 124941
+
+			Three-way Partition:
+				Average Execution Time 0.01226 seconds
+
+				Min Comparisons: 407045
+				Avg Comparisons: 442259
+				Max Comparisons: 522062
+
+				Min Exchanges: 376617
+				Avg Exchanges: 411831
+				Max Exchanges: 491634
+
+		k = 15
+			Cutoff to Insertion:
+				Average Execution Time 0.00808 seconds
+
+				Min Comparisons: 488809
+				Avg Comparisons: 509265
+				Max Comparisons: 560508
+
+				Min Exchanges: 121557
+				Avg Exchanges: 123509
+				Max Exchanges: 124724
+
+			Median of Three Partition:
+				Average Execution Time 0.00825 seconds
+
+				Min Comparisons: 487128
+				Avg Comparisons: 507506
+				Max Comparisons: 546323
+
+				Min Exchanges: 121738
+				Avg Exchanges: 123593
+				Max Exchanges: 124757
+
+			Three-way Partition:
+				Average Execution Time 0.00913 seconds
+
+				Min Comparisons: 406688
+				Avg Comparisons: 436821
+				Max Comparisons: 510758
+
+				Min Exchanges: 376104
+				Avg Exchanges: 406237
+				Max Exchanges: 480174
+
+		k = 16
+			Cutoff to Insertion:
+				Average Execution Time 0.00823 seconds
+
+				Min Comparisons: 488820
+				Avg Comparisons: 508418
+				Max Comparisons: 543345
+
+				Min Exchanges: 121706
+				Avg Exchanges: 123467
+				Max Exchanges: 124837
+
+			Median of Three Partition:
+				Average Execution Time 0.00822 seconds
+
+				Min Comparisons: 491248
+				Avg Comparisons: 506185
+				Max Comparisons: 528453
+
+				Min Exchanges: 122261
+				Avg Exchanges: 123541
+				Max Exchanges: 124664
+
+			Three-way Partition:
+				Average Execution Time 0.00900 seconds
+
+				Min Comparisons: 399034
+				Avg Comparisons: 431913
+				Max Comparisons: 500311
+
+				Min Exchanges: 368314
+				Avg Exchanges: 401193
+				Max Exchanges: 469591
+
+
+N = 65536:
+	Doubles:
+		Cutoff to Insertion:
+			Average Execution Time 0.01793 seconds
+
+			Min Comparisons: 1117788
+			Avg Comparisons: 1152435
+			Max Comparisons: 1218558
+
+			Min Exchanges: 284461
+			Avg Exchanges: 288025
+			Max Exchanges: 290024
+
+		Median of Three Partition:
+			Average Execution Time 0.01855 seconds
+
+			Min Comparisons: 1118915
+			Avg Comparisons: 1156359
+			Max Comparisons: 1226014
+
+			Min Exchanges: 284965
+			Avg Exchanges: 287933
+			Max Exchanges: 290107
+
+		Three-way Partition:
+			Average Execution Time 0.02686 seconds
+
+			Min Comparisons: 1205828
+			Avg Comparisons: 1265161
+			Max Comparisons: 1355913
+
+			Min Exchanges: 1205828
+			Avg Exchanges: 1265161
+			Max Exchanges: 1355913
+
+	Strings:
+		Cutoff to Insertion:
+			Average Execution Time 0.04278 seconds
+
+			Min Comparisons: 1118374
+			Avg Comparisons: 1149709
+			Max Comparisons: 1219524
+
+			Min Exchanges: 283621
+			Avg Exchanges: 286545
+			Max Exchanges: 288414
+
+		Median of Three Partition:
+			Average Execution Time 0.04433 seconds
+
+			Min Comparisons: 1112362
+			Avg Comparisons: 1149950
+			Max Comparisons: 1224733
+
+			Min Exchanges: 282714
+			Avg Exchanges: 286602
+			Max Exchanges: 289293
+
+		Three-way Partition:
+			Average Execution Time 0.05542 seconds
+
+			Min Comparisons: 1184000
+			Avg Comparisons: 1250980
+			Max Comparisons: 1362769
+
+			Min Exchanges: 1177776
+			Avg Exchanges: 1244717
+			Max Exchanges: 1356497
+
+	Integers:
+		k = 2
+			Cutoff to Insertion:
+				Average Execution Time 0.01949 seconds
+
+				Min Comparisons: 1095867
+				Avg Comparisons: 1135119
+				Max Comparisons: 1187343
+
+				Min Exchanges: 273418
+				Avg Exchanges: 275978
+				Max Exchanges: 278207
+
+			Median of Three Partition:
+				Average Execution Time 0.01994 seconds
+
+				Min Comparisons: 1097685
+				Avg Comparisons: 1134197
+				Max Comparisons: 1217281
+
+				Min Exchanges: 272237
+				Avg Exchanges: 275953
+				Max Exchanges: 278133
+
+			Three-way Partition:
+				Average Execution Time 0.02674 seconds
+
+				Min Comparisons: 1093738
+				Avg Comparisons: 1172875
+				Max Comparisons: 1297141
+
+				Min Exchanges: 1056562
+				Avg Exchanges: 1135673
+				Max Exchanges: 1260042
+
+		k = 3
+			Cutoff to Insertion:
+				Average Execution Time 0.02003 seconds
+
+				Min Comparisons: 1094769
+				Avg Comparisons: 1131696
+				Max Comparisons: 1221471
+
+				Min Exchanges: 268928
+				Avg Exchanges: 272128
+				Max Exchanges: 274190
+
+			Median of Three Partition:
+				Average Execution Time 0.02140 seconds
+
+				Min Comparisons: 1095880
+				Avg Comparisons: 1130319
+				Max Comparisons: 1264364
+
+				Min Exchanges: 268062
+				Avg Exchanges: 272240
+				Max Exchanges: 274371
+
+			Three-way Partition:
+				Average Execution Time 0.02737 seconds
+
+				Min Comparisons: 1076801
+				Avg Comparisons: 1139536
+				Max Comparisons: 1239046
+
+				Min Exchanges: 1032019
+				Avg Exchanges: 1094758
+				Max Exchanges: 1194278
+
+		k = 4
+			Cutoff to Insertion:
+				Average Execution Time 0.02557 seconds
+
+				Min Comparisons: 1083073
+				Avg Comparisons: 1125945
+				Max Comparisons: 1184014
+
+				Min Exchanges: 265747
+				Avg Exchanges: 269514
+				Max Exchanges: 272174
+
+			Median of Three Partition:
+				Average Execution Time 0.02543 seconds
+
+				Min Comparisons: 1079416
+				Avg Comparisons: 1122963
+				Max Comparisons: 1189945
+
+				Min Exchanges: 266707
+				Avg Exchanges: 269842
+				Max Exchanges: 272244
+
+			Three-way Partition:
+				Average Execution Time 0.03344 seconds
+
+				Min Comparisons: 1050377
+				Avg Comparisons: 1111112
+				Max Comparisons: 1226020
+
+				Min Exchanges: 1000903
+				Avg Exchanges: 1061660
+				Max Exchanges: 1176587
+
+		k = 5
+			Cutoff to Insertion:
+				Average Execution Time 0.02020 seconds
+
+				Min Comparisons: 1084346
+				Avg Comparisons: 1122106
+				Max Comparisons: 1194729
+
+				Min Exchanges: 264645
+				Avg Exchanges: 267919
+				Max Exchanges: 270674
+
+			Median of Three Partition:
+				Average Execution Time 0.02187 seconds
+
+				Min Comparisons: 1083430
+				Avg Comparisons: 1120583
+				Max Comparisons: 1226309
+
+				Min Exchanges: 263060
+				Avg Exchanges: 267776
+				Max Exchanges: 270125
+
+			Three-way Partition:
+				Average Execution Time 0.02716 seconds
+
+				Min Comparisons: 1008995
+				Avg Comparisons: 1099517
+				Max Comparisons: 1253597
+
+				Min Exchanges: 956488
+				Avg Exchanges: 1046999
+				Max Exchanges: 1201093
+
+		k = 6
+			Cutoff to Insertion:
+				Average Execution Time 0.02004 seconds
+
+				Min Comparisons: 1080728
+				Avg Comparisons: 1116690
+				Max Comparisons: 1175163
+
+				Min Exchanges: 263340
+				Avg Exchanges: 266854
+				Max Exchanges: 268920
+
+			Median of Three Partition:
+				Average Execution Time 0.02098 seconds
+
+				Min Comparisons: 1079484
+				Avg Comparisons: 1115240
+				Max Comparisons: 1200267
+
+				Min Exchanges: 261970
+				Avg Exchanges: 266805
+				Max Exchanges: 269017
+
+			Three-way Partition:
+				Average Execution Time 0.02618 seconds
+
+				Min Comparisons: 1003626
+				Avg Comparisons: 1072039
+				Max Comparisons: 1171235
+
+				Min Exchanges: 948981
+				Avg Exchanges: 1017398
+				Max Exchanges: 1116594
+
+		k = 7
+			Cutoff to Insertion:
+				Average Execution Time 0.02101 seconds
+
+				Min Comparisons: 1080660
+				Avg Comparisons: 1113200
+				Max Comparisons: 1183237
+
+				Min Exchanges: 262555
+				Avg Exchanges: 266056
+				Max Exchanges: 268273
+
+			Median of Three Partition:
+				Average Execution Time 0.02173 seconds
+
+				Min Comparisons: 1081440
+				Avg Comparisons: 1111647
+				Max Comparisons: 1202727
+
+				Min Exchanges: 262705
+				Avg Exchanges: 266176
+				Max Exchanges: 268191
+
+			Three-way Partition:
+				Average Execution Time 0.02609 seconds
+
+				Min Comparisons: 978912
+				Avg Comparisons: 1051514
+				Max Comparisons: 1172679
+
+				Min Exchanges: 922731
+				Avg Exchanges: 995332
+				Max Exchanges: 1116501
+
+		k = 8
+			Cutoff to Insertion:
+				Average Execution Time 0.02068 seconds
+
+				Min Comparisons: 1066541
+				Avg Comparisons: 1110784
+				Max Comparisons: 1185362
+
+				Min Exchanges: 262683
+				Avg Exchanges: 265486
+				Max Exchanges: 268546
+
+			Median of Three Partition:
+				Average Execution Time 0.02093 seconds
+
+				Min Comparisons: 1070973
+				Avg Comparisons: 1105881
+				Max Comparisons: 1165529
+
+				Min Exchanges: 262620
+				Avg Exchanges: 265743
+				Max Exchanges: 268311
+
+			Three-way Partition:
+				Average Execution Time 0.02511 seconds
+
+				Min Comparisons: 981115
+				Avg Comparisons: 1040237
+				Max Comparisons: 1133556
+
+				Min Exchanges: 923765
+				Avg Exchanges: 982890
+				Max Exchanges: 1076206
+
+		k = 9
+			Cutoff to Insertion:
+				Average Execution Time 0.01915 seconds
+
+				Min Comparisons: 1072738
+				Avg Comparisons: 1110113
+				Max Comparisons: 1188547
+
+				Min Exchanges: 261782
+				Avg Exchanges: 264909
+				Max Exchanges: 267408
+
+			Median of Three Partition:
+				Average Execution Time 0.02037 seconds
+
+				Min Comparisons: 1072491
+				Avg Comparisons: 1109282
+				Max Comparisons: 1188142
+
+				Min Exchanges: 261120
+				Avg Exchanges: 264974
+				Max Exchanges: 267381
+
+			Three-way Partition:
+				Average Execution Time 0.02411 seconds
+
+				Min Comparisons: 939124
+				Avg Comparisons: 1028966
+				Max Comparisons: 1192873
+
+				Min Exchanges: 880867
+				Avg Exchanges: 970710
+				Max Exchanges: 1134618
+
+		k = 10
+			Cutoff to Insertion:
+				Average Execution Time 0.01794 seconds
+
+				Min Comparisons: 1071426
+				Avg Comparisons: 1101678
+				Max Comparisons: 1161730
+
+				Min Exchanges: 262097
+				Avg Exchanges: 264717
+				Max Exchanges: 266654
+
+			Median of Three Partition:
+				Average Execution Time 0.01843 seconds
+
+				Min Comparisons: 1067037
+				Avg Comparisons: 1102582
+				Max Comparisons: 1229057
+
+				Min Exchanges: 259950
+				Avg Exchanges: 264643
+				Max Exchanges: 266946
+
+			Three-way Partition:
+				Average Execution Time 0.02206 seconds
+
+				Min Comparisons: 937989
+				Avg Comparisons: 1021740
+				Max Comparisons: 1113527
+
+				Min Exchanges: 879006
+				Avg Exchanges: 962757
+				Max Exchanges: 1054543
+
+		k = 11
+			Cutoff to Insertion:
+				Average Execution Time 0.01786 seconds
+
+				Min Comparisons: 1065213
+				Avg Comparisons: 1103122
+				Max Comparisons: 1171015
+
+				Min Exchanges: 260065
+				Avg Exchanges: 264024
+				Max Exchanges: 266457
+
+			Median of Three Partition:
+				Average Execution Time 0.01827 seconds
+
+				Min Comparisons: 1060364
+				Avg Comparisons: 1107251
+				Max Comparisons: 1193570
+
+				Min Exchanges: 259848
+				Avg Exchanges: 263754
+				Max Exchanges: 266418
+
+			Three-way Partition:
+				Average Execution Time 0.02137 seconds
+
+				Min Comparisons: 927546
+				Avg Comparisons: 1004668
+				Max Comparisons: 1152665
+
+				Min Exchanges: 867967
+				Avg Exchanges: 945089
+				Max Exchanges: 1093086
+
+		k = 12
+			Cutoff to Insertion:
+				Average Execution Time 0.02255 seconds
+
+				Min Comparisons: 1062353
+				Avg Comparisons: 1100278
+				Max Comparisons: 1171461
+
+				Min Exchanges: 260131
+				Avg Exchanges: 263538
+				Max Exchanges: 265875
+
+			Median of Three Partition:
+				Average Execution Time 0.02337 seconds
+
+				Min Comparisons: 1065927
+				Avg Comparisons: 1103509
+				Max Comparisons: 1169024
+
+				Min Exchanges: 259574
+				Avg Exchanges: 263413
+				Max Exchanges: 265824
+
+			Three-way Partition:
+				Average Execution Time 0.02899 seconds
+
+				Min Comparisons: 921487
+				Avg Comparisons: 998963
+				Max Comparisons: 1148898
+
+				Min Exchanges: 861412
+				Avg Exchanges: 938888
+				Max Exchanges: 1088823
+
+		k = 13
+			Cutoff to Insertion:
+				Average Execution Time 0.01951 seconds
+
+				Min Comparisons: 1063281
+				Avg Comparisons: 1097291
+				Max Comparisons: 1169869
+
+				Min Exchanges: 259550
+				Avg Exchanges: 263313
+				Max Exchanges: 265327
+
+			Median of Three Partition:
+				Average Execution Time 0.02178 seconds
+
+				Min Comparisons: 1062754
+				Avg Comparisons: 1100862
+				Max Comparisons: 1164026
+
+				Min Exchanges: 259812
+				Avg Exchanges: 263122
+				Max Exchanges: 265474
+
+			Three-way Partition:
+				Average Execution Time 0.02477 seconds
+
+				Min Comparisons: 906038
+				Avg Comparisons: 985026
+				Max Comparisons: 1152310
+
+				Min Exchanges: 845543
+				Avg Exchanges: 924531
+				Max Exchanges: 1091815
+
+		k = 14
+			Cutoff to Insertion:
+				Average Execution Time 0.01950 seconds
+
+				Min Comparisons: 1060370
+				Avg Comparisons: 1096733
+				Max Comparisons: 1169330
+
+				Min Exchanges: 259514
+				Avg Exchanges: 262878
+				Max Exchanges: 264659
+
+			Median of Three Partition:
+				Average Execution Time 0.02200 seconds
+
+				Min Comparisons: 1060043
+				Avg Comparisons: 1097348
+				Max Comparisons: 1184895
+
+				Min Exchanges: 258548
+				Avg Exchanges: 262920
+				Max Exchanges: 265341
+
+			Three-way Partition:
+				Average Execution Time 0.02356 seconds
+
+				Min Comparisons: 903771
+				Avg Comparisons: 977234
+				Max Comparisons: 1140621
+
+				Min Exchanges: 842916
+				Avg Exchanges: 916379
+				Max Exchanges: 1079766
+
+		k = 15
+			Cutoff to Insertion:
+				Average Execution Time 0.01887 seconds
+
+				Min Comparisons: 1064090
+				Avg Comparisons: 1095111
+				Max Comparisons: 1161133
+
+				Min Exchanges: 259312
+				Avg Exchanges: 262690
+				Max Exchanges: 264984
+
+			Median of Three Partition:
+				Average Execution Time 0.02019 seconds
+
+				Min Comparisons: 1055190
+				Avg Comparisons: 1096570
+				Max Comparisons: 1188595
+
+				Min Exchanges: 259402
+				Avg Exchanges: 262658
+				Max Exchanges: 265286
+
+			Three-way Partition:
+				Average Execution Time 0.02290 seconds
+
+				Min Comparisons: 893847
+				Avg Comparisons: 968023
+				Max Comparisons: 1128071
+
+				Min Exchanges: 832680
+				Avg Exchanges: 906856
+				Max Exchanges: 1066904
+
+		k = 16
+			Cutoff to Insertion:
+				Average Execution Time 0.01762 seconds
+
+				Min Comparisons: 1054170
+				Avg Comparisons: 1092799
+				Max Comparisons: 1156881
+
+				Min Exchanges: 259389
+				Avg Exchanges: 262580
+				Max Exchanges: 265180
+
+			Median of Three Partition:
+				Average Execution Time 0.01805 seconds
+
+				Min Comparisons: 1059846
+				Avg Comparisons: 1096067
+				Max Comparisons: 1194719
+
+				Min Exchanges: 257712
+				Avg Exchanges: 262418
+				Max Exchanges: 264646
+
+			Three-way Partition:
+				Average Execution Time 0.02105 seconds
+
+				Min Comparisons: 886386
+				Avg Comparisons: 957746
+				Max Comparisons: 1091536
+
+				Min Exchanges: 824946
+				Avg Exchanges: 896306
+				Max Exchanges: 1030096
+
+
+N = 131072:
+	Doubles:
+		Cutoff to Insertion:
+			Average Execution Time 0.05191 seconds
+
+			Min Comparisons: 2392424
+			Avg Comparisons: 2468687
+			Max Comparisons: 2623896
+
+			Min Exchanges: 598453
+			Avg Exchanges: 606670
+			Max Exchanges: 611298
+
+		Median of Three Partition:
+			Average Execution Time 0.05278 seconds
+
+			Min Comparisons: 2384751
+			Avg Comparisons: 2461730
+			Max Comparisons: 2608329
+
+			Min Exchanges: 602203
+			Avg Exchanges: 607295
+			Max Exchanges: 611870
+
+		Three-way Partition:
+			Average Execution Time 0.08070 seconds
+
+			Min Comparisons: 2572452
+			Avg Comparisons: 2722241
+			Max Comparisons: 2989559
+
+			Min Exchanges: 2572452
+			Avg Exchanges: 2722241
+			Max Exchanges: 2989559
+
+	Strings:
+		Cutoff to Insertion:
+			Average Execution Time 0.08652 seconds
+
+			Min Comparisons: 2366285
+			Avg Comparisons: 2454771
+			Max Comparisons: 2584644
+
+			Min Exchanges: 595496
+			Avg Exchanges: 601184
+			Max Exchanges: 606883
+
+		Median of Three Partition:
+			Average Execution Time 0.09028 seconds
+
+			Min Comparisons: 2389732
+			Avg Comparisons: 2461517
+			Max Comparisons: 2693635
+
+			Min Exchanges: 593778
+			Avg Exchanges: 600616
+			Max Exchanges: 604898
+
+		Three-way Partition:
+			Average Execution Time 0.11339 seconds
+
+			Min Comparisons: 2504934
+			Avg Comparisons: 2657214
+			Max Comparisons: 2983024
+
+			Min Exchanges: 2481517
+			Avg Exchanges: 2633758
+			Max Exchanges: 2959674
+
+	Integers:
+		k = 2
+			Cutoff to Insertion:
+				Average Execution Time 0.04454 seconds
+
+				Min Comparisons: 2335419
+				Avg Comparisons: 2428022
+				Max Comparisons: 2541095
+
+				Min Exchanges: 576095
+				Avg Exchanges: 582851
+				Max Exchanges: 588247
+
+			Median of Three Partition:
+				Average Execution Time 0.04750 seconds
+
+				Min Comparisons: 2339413
+				Avg Comparisons: 2428829
+				Max Comparisons: 2568158
+
+				Min Exchanges: 576035
+				Avg Exchanges: 583080
+				Max Exchanges: 588212
+
+			Three-way Partition:
+				Average Execution Time 0.06251 seconds
+
+				Min Comparisons: 2373237
+				Avg Comparisons: 2522947
+				Max Comparisons: 2780311
+
+				Min Exchanges: 2298796
+				Avg Exchanges: 2448543
+				Max Exchanges: 2705880
+
+		k = 3
+			Cutoff to Insertion:
+				Average Execution Time 0.04252 seconds
+
+				Min Comparisons: 2348007
+				Avg Comparisons: 2418945
+				Max Comparisons: 2562100
+
+				Min Exchanges: 569346
+				Avg Exchanges: 575360
+				Max Exchanges: 579904
+
+			Median of Three Partition:
+				Average Execution Time 0.04492 seconds
+
+				Min Comparisons: 2355330
+				Avg Comparisons: 2417971
+				Max Comparisons: 2608872
+
+				Min Exchanges: 567171
+				Avg Exchanges: 575492
+				Max Exchanges: 579193
+
+			Three-way Partition:
+				Average Execution Time 0.05991 seconds
+
+				Min Comparisons: 2301061
+				Avg Comparisons: 2442462
+				Max Comparisons: 2663703
+
+				Min Exchanges: 2211513
+				Avg Exchanges: 2352900
+				Max Exchanges: 2574103
+
+		k = 4
+			Cutoff to Insertion:
+				Average Execution Time 0.04405 seconds
+
+				Min Comparisons: 2318216
+				Avg Comparisons: 2411773
+				Max Comparisons: 2617345
+
+				Min Exchanges: 558902
+				Avg Exchanges: 570064
+				Max Exchanges: 575032
+
+			Median of Three Partition:
+				Average Execution Time 0.04482 seconds
+
+				Min Comparisons: 2328617
+				Avg Comparisons: 2406760
+				Max Comparisons: 2611265
+
+				Min Exchanges: 564070
+				Avg Exchanges: 570439
+				Max Exchanges: 574541
+
+			Three-way Partition:
+				Average Execution Time 0.06095 seconds
+
+				Min Comparisons: 2250673
+				Avg Comparisons: 2412699
+				Max Comparisons: 2678840
+
+				Min Exchanges: 2151794
+				Avg Exchanges: 2313795
+				Max Exchanges: 2579914
+
+		k = 5
+			Cutoff to Insertion:
+				Average Execution Time 0.04343 seconds
+
+				Min Comparisons: 2313625
+				Avg Comparisons: 2397769
+				Max Comparisons: 2580819
+
+				Min Exchanges: 558781
+				Avg Exchanges: 566977
+				Max Exchanges: 572190
+
+			Median of Three Partition:
+				Average Execution Time 0.04600 seconds
+
+				Min Comparisons: 2326385
+				Avg Comparisons: 2392329
+				Max Comparisons: 2539777
+
+				Min Exchanges: 560530
+				Avg Exchanges: 567268
+				Max Exchanges: 571210
+
+			Three-way Partition:
+				Average Execution Time 0.05862 seconds
+
+				Min Comparisons: 2180582
+				Avg Comparisons: 2351280
+				Max Comparisons: 2637078
+
+				Min Exchanges: 2075566
+				Avg Exchanges: 2246246
+				Max Exchanges: 2532049
+
+		k = 6
+			Cutoff to Insertion:
+				Average Execution Time 0.04452 seconds
+
+				Min Comparisons: 2319251
+				Avg Comparisons: 2393343
+				Max Comparisons: 2519912
+
+				Min Exchanges: 560092
+				Avg Exchanges: 564669
+				Max Exchanges: 569152
+
+			Median of Three Partition:
+				Average Execution Time 0.04669 seconds
+
+				Min Comparisons: 2304717
+				Avg Comparisons: 2390123
+				Max Comparisons: 2513415
+
+				Min Exchanges: 557817
+				Avg Exchanges: 564858
+				Max Exchanges: 569516
+
+			Three-way Partition:
+				Average Execution Time 0.06001 seconds
+
+				Min Comparisons: 2181140
+				Avg Comparisons: 2327393
+				Max Comparisons: 2698770
+
+				Min Exchanges: 2071861
+				Avg Exchanges: 2218112
+				Max Exchanges: 2589481
+
+		k = 7
+			Cutoff to Insertion:
+				Average Execution Time 0.04986 seconds
+
+				Min Comparisons: 2301681
+				Avg Comparisons: 2381556
+				Max Comparisons: 2497549
+
+				Min Exchanges: 557970
+				Avg Exchanges: 563503
+				Max Exchanges: 568130
+
+			Median of Three Partition:
+				Average Execution Time 0.05386 seconds
+
+				Min Comparisons: 2303720
+				Avg Comparisons: 2378863
+				Max Comparisons: 2507789
+
+				Min Exchanges: 557540
+				Avg Exchanges: 563565
+				Max Exchanges: 568709
+
+			Three-way Partition:
+				Average Execution Time 0.07372 seconds
+
+				Min Comparisons: 2119371
+				Avg Comparisons: 2309707
+				Max Comparisons: 2568394
+
+				Min Exchanges: 2007005
+				Avg Exchanges: 2197341
+				Max Exchanges: 2456030
+
+		k = 8
+			Cutoff to Insertion:
+				Average Execution Time 0.05661 seconds
+
+				Min Comparisons: 2299775
+				Avg Comparisons: 2377546
+				Max Comparisons: 2604425
+
+				Min Exchanges: 553357
+				Avg Exchanges: 562114
+				Max Exchanges: 566806
+
+			Median of Three Partition:
+				Average Execution Time 0.05782 seconds
+
+				Min Comparisons: 2307430
+				Avg Comparisons: 2378111
+				Max Comparisons: 2597632
+
+				Min Exchanges: 552195
+				Avg Exchanges: 562157
+				Max Exchanges: 566006
+
+			Three-way Partition:
+				Average Execution Time 0.07200 seconds
+
+				Min Comparisons: 2117491
+				Avg Comparisons: 2264628
+				Max Comparisons: 2584084
+
+				Min Exchanges: 2002798
+				Avg Exchanges: 2149935
+				Max Exchanges: 2469390
+
+		k = 9
+			Cutoff to Insertion:
+				Average Execution Time 0.04899 seconds
+
+				Min Comparisons: 2282883
+				Avg Comparisons: 2365606
+				Max Comparisons: 2527012
+
+				Min Exchanges: 555232
+				Avg Exchanges: 561288
+				Max Exchanges: 566271
+
+			Median of Three Partition:
+				Average Execution Time 0.04920 seconds
+
+				Min Comparisons: 2288586
+				Avg Comparisons: 2364668
+				Max Comparisons: 2509772
+
+				Min Exchanges: 555954
+				Avg Exchanges: 561633
+				Max Exchanges: 565723
+
+			Three-way Partition:
+				Average Execution Time 0.06398 seconds
+
+				Min Comparisons: 2068823
+				Avg Comparisons: 2242539
+				Max Comparisons: 2489003
+
+				Min Exchanges: 1952312
+				Avg Exchanges: 2126028
+				Max Exchanges: 2372493
+
+		k = 10
+			Cutoff to Insertion:
+				Average Execution Time 0.04271 seconds
+
+				Min Comparisons: 2296806
+				Avg Comparisons: 2381342
+				Max Comparisons: 2547135
+
+				Min Exchanges: 551306
+				Avg Exchanges: 559463
+				Max Exchanges: 564225
+
+			Median of Three Partition:
+				Average Execution Time 0.04402 seconds
+
+				Min Comparisons: 2283900
+				Avg Comparisons: 2362042
+				Max Comparisons: 2601693
+
+				Min Exchanges: 550739
+				Avg Exchanges: 560464
+				Max Exchanges: 565322
+
+			Three-way Partition:
+				Average Execution Time 0.05399 seconds
+
+				Min Comparisons: 2069947
+				Avg Comparisons: 2205640
+				Max Comparisons: 2486258
+
+				Min Exchanges: 1951980
+				Avg Exchanges: 2087675
+				Max Exchanges: 2368292
+
+		k = 11
+			Cutoff to Insertion:
+				Average Execution Time 0.05613 seconds
+
+				Min Comparisons: 2285932
+				Avg Comparisons: 2362095
+				Max Comparisons: 2466028
+
+				Min Exchanges: 552970
+				Avg Exchanges: 559106
+				Max Exchanges: 563508
+
+			Median of Three Partition:
+				Average Execution Time 0.05807 seconds
+
+				Min Comparisons: 2287049
+				Avg Comparisons: 2360561
+				Max Comparisons: 2467439
+
+				Min Exchanges: 553080
+				Avg Exchanges: 559213
+				Max Exchanges: 564316
+
+			Three-way Partition:
+				Average Execution Time 0.07277 seconds
+
+				Min Comparisons: 2026535
+				Avg Comparisons: 2193880
+				Max Comparisons: 2534193
+
+				Min Exchanges: 1907377
+				Avg Exchanges: 2074723
+				Max Exchanges: 2415036
+
+		k = 12
+			Cutoff to Insertion:
+				Average Execution Time 0.04322 seconds
+
+				Min Comparisons: 2283963
+				Avg Comparisons: 2351789
+				Max Comparisons: 2471367
+
+				Min Exchanges: 551789
+				Avg Exchanges: 558579
+				Max Exchanges: 563021
+
+			Median of Three Partition:
+				Average Execution Time 0.04557 seconds
+
+				Min Comparisons: 2283885
+				Avg Comparisons: 2367775
+				Max Comparisons: 2509078
+
+				Min Exchanges: 551735
+				Avg Exchanges: 557750
+				Max Exchanges: 563592
+
+			Three-way Partition:
+				Average Execution Time 0.05569 seconds
+
+				Min Comparisons: 2028413
+				Avg Comparisons: 2172710
+				Max Comparisons: 2530632
+
+				Min Exchanges: 1908263
+				Avg Exchanges: 2052560
+				Max Exchanges: 2410482
+
+		k = 13
+			Cutoff to Insertion:
+				Average Execution Time 0.04603 seconds
+
+				Min Comparisons: 2274961
+				Avg Comparisons: 2348886
+				Max Comparisons: 2514801
+
+				Min Exchanges: 550571
+				Avg Exchanges: 557619
+				Max Exchanges: 561759
+
+			Median of Three Partition:
+				Average Execution Time 0.04724 seconds
+
+				Min Comparisons: 2290880
+				Avg Comparisons: 2352857
+				Max Comparisons: 2472366
+
+				Min Exchanges: 551091
+				Avg Exchanges: 557473
+				Max Exchanges: 561249
+
+			Three-way Partition:
+				Average Execution Time 0.05780 seconds
+
+				Min Comparisons: 2014583
+				Avg Comparisons: 2158724
+				Max Comparisons: 2384918
+
+				Min Exchanges: 1893593
+				Avg Exchanges: 2037734
+				Max Exchanges: 2263928
+
+		k = 14
+			Cutoff to Insertion:
+				Average Execution Time 0.04333 seconds
+
+				Min Comparisons: 2256613
+				Avg Comparisons: 2346889
+				Max Comparisons: 2470068
+
+				Min Exchanges: 550648
+				Avg Exchanges: 557203
+				Max Exchanges: 561965
+
+			Median of Three Partition:
+				Average Execution Time 0.04473 seconds
+
+				Min Comparisons: 2266021
+				Avg Comparisons: 2352263
+				Max Comparisons: 2503846
+
+				Min Exchanges: 550172
+				Avg Exchanges: 557011
+				Max Exchanges: 562228
+
+			Three-way Partition:
+				Average Execution Time 0.05428 seconds
+
+				Min Comparisons: 1965342
+				Avg Comparisons: 2135750
+				Max Comparisons: 2425371
+
+				Min Exchanges: 1843632
+				Avg Exchanges: 2014040
+				Max Exchanges: 2303661
+
+		k = 15
+			Cutoff to Insertion:
+				Average Execution Time 0.04432 seconds
+
+				Min Comparisons: 2275398
+				Avg Comparisons: 2351783
+				Max Comparisons: 2524373
+
+				Min Exchanges: 550181
+				Avg Exchanges: 556329
+				Max Exchanges: 560588
+
+			Median of Three Partition:
+				Average Execution Time 0.04667 seconds
+
+				Min Comparisons: 2278342
+				Avg Comparisons: 2344723
+				Max Comparisons: 2565819
+
+				Min Exchanges: 550591
+				Avg Exchanges: 556841
+				Max Exchanges: 561243
+
+			Three-way Partition:
+				Average Execution Time 0.05670 seconds
+
+				Min Comparisons: 1948926
+				Avg Comparisons: 2108365
+				Max Comparisons: 2649512
+
+				Min Exchanges: 1826592
+				Avg Exchanges: 1986031
+				Max Exchanges: 2527178
+
+		k = 16
+			Cutoff to Insertion:
+				Average Execution Time 0.04658 seconds
+
+				Min Comparisons: 2261458
+				Avg Comparisons: 2349880
+				Max Comparisons: 2544960
+
+				Min Exchanges: 549469
+				Avg Exchanges: 555735
+				Max Exchanges: 560388
+
+			Median of Three Partition:
+				Average Execution Time 0.04770 seconds
+
+				Min Comparisons: 2256685
+				Avg Comparisons: 2350322
+				Max Comparisons: 2526934
+
+				Min Exchanges: 549493
+				Avg Exchanges: 555884
+				Max Exchanges: 561629
+
+			Three-way Partition:
+				Average Execution Time 0.05867 seconds
+
+				Min Comparisons: 1960527
+				Avg Comparisons: 2115562
+				Max Comparisons: 2529243
+
+				Min Exchanges: 1837647
+				Avg Exchanges: 1992682
+				Max Exchanges: 2406363
+
+
+N = 262144:
+	Doubles:
+		Cutoff to Insertion:
+			Average Execution Time 0.12574 seconds
+
+			Min Comparisons: 5099430
+			Avg Comparisons: 5248062
+			Max Comparisons: 5541564
+
+			Min Exchanges: 1261969
+			Avg Exchanges: 1276180
+			Max Exchanges: 1285563
+
+		Median of Three Partition:
+			Average Execution Time 0.13090 seconds
+
+			Min Comparisons: 5099020
+			Avg Comparisons: 5232071
+			Max Comparisons: 5481121
+
+			Min Exchanges: 1261278
+			Avg Exchanges: 1277129
+			Max Exchanges: 1284997
+
+		Three-way Partition:
+			Average Execution Time 0.19902 seconds
+
+			Min Comparisons: 5512621
+			Avg Comparisons: 5780254
+			Max Comparisons: 6544292
+
+			Min Exchanges: 5512621
+			Avg Exchanges: 5780254
+			Max Exchanges: 6544292
+
+	Strings:
+		Cutoff to Insertion:
+			Average Execution Time 0.18485 seconds
+
+			Min Comparisons: 5072726
+			Avg Comparisons: 5201798
+			Max Comparisons: 5432265
+
+			Min Exchanges: 1243830
+			Avg Exchanges: 1254300
+			Max Exchanges: 1263157
+
+		Median of Three Partition:
+			Average Execution Time 0.18972 seconds
+
+			Min Comparisons: 5059570
+			Avg Comparisons: 5197876
+			Max Comparisons: 5502105
+
+			Min Exchanges: 1236060
+			Avg Exchanges: 1253839
+			Max Exchanges: 1263508
+
+		Three-way Partition:
+			Average Execution Time 0.23953 seconds
+
+			Min Comparisons: 5350894
+			Avg Comparisons: 5605238
+			Max Comparisons: 6032507
+
+			Min Exchanges: 5267837
+			Avg Exchanges: 5522260
+			Max Exchanges: 5949608
+
+	Integers:
+		k = 2
+			Cutoff to Insertion:
+				Average Execution Time 0.11198 seconds
+
+				Min Comparisons: 5031626
+				Avg Comparisons: 5162704
+				Max Comparisons: 5496015
+
+				Min Exchanges: 1217284
+				Avg Exchanges: 1228556
+				Max Exchanges: 1235937
+
+			Median of Three Partition:
+				Average Execution Time 0.11890 seconds
+
+				Min Comparisons: 4999062
+				Avg Comparisons: 5181661
+				Max Comparisons: 5439289
+
+				Min Exchanges: 1215404
+				Avg Exchanges: 1227818
+				Max Exchanges: 1236718
+
+			Three-way Partition:
+				Average Execution Time 0.16584 seconds
+
+				Min Comparisons: 5132615
+				Avg Comparisons: 5440171
+				Max Comparisons: 6270032
+
+				Min Exchanges: 4983787
+				Avg Exchanges: 5291378
+				Max Exchanges: 6121190
+
+		k = 3
+			Cutoff to Insertion:
+				Average Execution Time 0.12904 seconds
+
+				Min Comparisons: 4991844
+				Avg Comparisons: 5146002
+				Max Comparisons: 5478027
+
+				Min Exchanges: 1198034
+				Avg Exchanges: 1213070
+				Max Exchanges: 1223334
+
+			Median of Three Partition:
+				Average Execution Time 0.14167 seconds
+
+				Min Comparisons: 5001681
+				Avg Comparisons: 5135441
+				Max Comparisons: 5514983
+
+				Min Exchanges: 1198114
+				Avg Exchanges: 1213527
+				Max Exchanges: 1221822
+
+			Three-way Partition:
+				Average Execution Time 0.19115 seconds
+
+				Min Comparisons: 4991013
+				Avg Comparisons: 5273832
+				Max Comparisons: 5779294
+
+				Min Exchanges: 4811924
+				Avg Exchanges: 5094714
+				Max Exchanges: 5600119
+
+		k = 4
+			Cutoff to Insertion:
+				Average Execution Time 0.14550 seconds
+
+				Min Comparisons: 4959848
+				Avg Comparisons: 5121910
+				Max Comparisons: 5564490
+
+				Min Exchanges: 1187315
+				Avg Exchanges: 1203046
+				Max Exchanges: 1212102
+
+			Median of Three Partition:
+				Average Execution Time 0.15570 seconds
+
+				Min Comparisons: 4977756
+				Avg Comparisons: 5126699
+				Max Comparisons: 5364617
+
+				Min Exchanges: 1191770
+				Avg Exchanges: 1202791
+				Max Exchanges: 1211083
+
+			Three-way Partition:
+				Average Execution Time 0.21649 seconds
+
+				Min Comparisons: 4880887
+				Avg Comparisons: 5184824
+				Max Comparisons: 5701807
+
+				Min Exchanges: 4683044
+				Avg Exchanges: 4987016
+				Max Exchanges: 5504023
+
+		k = 5
+			Cutoff to Insertion:
+				Average Execution Time 0.11274 seconds
+
+				Min Comparisons: 4931072
+				Avg Comparisons: 5096643
+				Max Comparisons: 5386198
+
+				Min Exchanges: 1179827
+				Avg Exchanges: 1196533
+				Max Exchanges: 1207355
+
+			Median of Three Partition:
+				Average Execution Time 0.11902 seconds
+
+				Min Comparisons: 4949456
+				Avg Comparisons: 5099506
+				Max Comparisons: 5279084
+
+				Min Exchanges: 1186675
+				Avg Exchanges: 1196651
+				Max Exchanges: 1206052
+
+			Three-way Partition:
+				Average Execution Time 0.16395 seconds
+
+				Min Comparisons: 4844037
+				Avg Comparisons: 5120550
+				Max Comparisons: 5651447
+
+				Min Exchanges: 4633988
+				Avg Exchanges: 4910479
+				Max Exchanges: 5441361
+
+		k = 6
+			Cutoff to Insertion:
+				Average Execution Time 0.10827 seconds
+
+				Min Comparisons: 4936018
+				Avg Comparisons: 5078473
+				Max Comparisons: 5399498
+
+				Min Exchanges: 1175015
+				Avg Exchanges: 1192309
+				Max Exchanges: 1199943
+
+			Median of Three Partition:
+				Average Execution Time 0.11474 seconds
+
+				Min Comparisons: 4944277
+				Avg Comparisons: 5089844
+				Max Comparisons: 5511472
+
+				Min Exchanges: 1171561
+				Avg Exchanges: 1192022
+				Max Exchanges: 1200783
+
+			Three-way Partition:
+				Average Execution Time 0.15102 seconds
+
+				Min Comparisons: 4743516
+				Avg Comparisons: 5016420
+				Max Comparisons: 5593066
+
+				Min Exchanges: 4524963
+				Avg Exchanges: 4797858
+				Max Exchanges: 5374494
+
+		k = 7
+			Cutoff to Insertion:
+				Average Execution Time 0.11573 seconds
+
+				Min Comparisons: 4941749
+				Avg Comparisons: 5068663
+				Max Comparisons: 5357661
+
+				Min Exchanges: 1174207
+				Avg Exchanges: 1189303
+				Max Exchanges: 1197407
+
+			Median of Three Partition:
+				Average Execution Time 0.12094 seconds
+
+				Min Comparisons: 4947910
+				Avg Comparisons: 5075013
+				Max Comparisons: 5411594
+
+				Min Exchanges: 1171616
+				Avg Exchanges: 1189219
+				Max Exchanges: 1196677
+
+			Three-way Partition:
+				Average Execution Time 0.16270 seconds
+
+				Min Comparisons: 4573636
+				Avg Comparisons: 4945586
+				Max Comparisons: 5640931
+
+				Min Exchanges: 4348910
+				Avg Exchanges: 4720857
+				Max Exchanges: 5416203
+
+		k = 8
+			Cutoff to Insertion:
+				Average Execution Time 0.15328 seconds
+
+				Min Comparisons: 4920804
+				Avg Comparisons: 5061122
+				Max Comparisons: 5319590
+
+				Min Exchanges: 1174990
+				Avg Exchanges: 1186770
+				Max Exchanges: 1194539
+
+			Median of Three Partition:
+				Average Execution Time 0.16148 seconds
+
+				Min Comparisons: 4912120
+				Avg Comparisons: 5059251
+				Max Comparisons: 5447925
+
+				Min Exchanges: 1172244
+				Avg Exchanges: 1186977
+				Max Exchanges: 1197592
+
+			Three-way Partition:
+				Average Execution Time 0.21845 seconds
+
+				Min Comparisons: 4549368
+				Avg Comparisons: 4878578
+				Max Comparisons: 5359938
+
+				Min Exchanges: 4319986
+				Avg Exchanges: 4649191
+				Max Exchanges: 5130553
+
+		k = 9
+			Cutoff to Insertion:
+				Average Execution Time 0.13858 seconds
+
+				Min Comparisons: 4917072
+				Avg Comparisons: 5072629
+				Max Comparisons: 5362461
+
+				Min Exchanges: 1167688
+				Avg Exchanges: 1183491
+				Max Exchanges: 1192793
+
+			Median of Three Partition:
+				Average Execution Time 0.13849 seconds
+
+				Min Comparisons: 4925556
+				Avg Comparisons: 5065056
+				Max Comparisons: 5643982
+
+				Min Exchanges: 1160402
+				Avg Exchanges: 1184238
+				Max Exchanges: 1192946
+
+			Three-way Partition:
+				Average Execution Time 0.19570 seconds
+
+				Min Comparisons: 4452865
+				Avg Comparisons: 4860275
+				Max Comparisons: 5365993
+
+				Min Exchanges: 4219843
+				Avg Exchanges: 4627254
+				Max Exchanges: 5132973
+
+		k = 10
+			Cutoff to Insertion:
+				Average Execution Time 0.12193 seconds
+
+				Min Comparisons: 4882953
+				Avg Comparisons: 5045766
+				Max Comparisons: 5361423
+
+				Min Exchanges: 1171020
+				Avg Exchanges: 1182479
+				Max Exchanges: 1191776
+
+			Median of Three Partition:
+				Average Execution Time 0.12865 seconds
+
+				Min Comparisons: 4891995
+				Avg Comparisons: 5050582
+				Max Comparisons: 5295249
+
+				Min Exchanges: 1169818
+				Avg Exchanges: 1182313
+				Max Exchanges: 1192000
+
+			Three-way Partition:
+				Average Execution Time 0.17046 seconds
+
+				Min Comparisons: 4436672
+				Avg Comparisons: 4822305
+				Max Comparisons: 5472868
+
+				Min Exchanges: 4200741
+				Avg Exchanges: 4586374
+				Max Exchanges: 5236937
+
+		k = 11
+			Cutoff to Insertion:
+				Average Execution Time 0.12301 seconds
+
+				Min Comparisons: 4903992
+				Avg Comparisons: 5048576
+				Max Comparisons: 5467655
+
+				Min Exchanges: 1160018
+				Avg Exchanges: 1179982
+				Max Exchanges: 1189372
+
+			Median of Three Partition:
+				Average Execution Time 0.12699 seconds
+
+				Min Comparisons: 4888849
+				Avg Comparisons: 5033342
+				Max Comparisons: 5325203
+
+				Min Exchanges: 1164103
+				Avg Exchanges: 1180794
+				Max Exchanges: 1189363
+
+			Three-way Partition:
+				Average Execution Time 0.16958 seconds
+
+				Min Comparisons: 4438331
+				Avg Comparisons: 4749789
+				Max Comparisons: 5247919
+
+				Min Exchanges: 4200017
+				Avg Exchanges: 4511476
+				Max Exchanges: 5009606
+
+		k = 12
+			Cutoff to Insertion:
+				Average Execution Time 0.10855 seconds
+
+				Min Comparisons: 4864806
+				Avg Comparisons: 5035413
+				Max Comparisons: 5406588
+
+				Min Exchanges: 1162425
+				Avg Exchanges: 1178754
+				Max Exchanges: 1188251
+
+			Median of Three Partition:
+				Average Execution Time 0.11395 seconds
+
+				Min Comparisons: 4864289
+				Avg Comparisons: 5029396
+				Max Comparisons: 5323338
+
+				Min Exchanges: 1167590
+				Avg Exchanges: 1178771
+				Max Exchanges: 1188848
+
+			Three-way Partition:
+				Average Execution Time 0.14961 seconds
+
+				Min Comparisons: 4392282
+				Avg Comparisons: 4718662
+				Max Comparisons: 5375686
+
+				Min Exchanges: 4151983
+				Avg Exchanges: 4478363
+				Max Exchanges: 5135387
+
+		k = 13
+			Cutoff to Insertion:
+				Average Execution Time 0.13310 seconds
+
+				Min Comparisons: 4875864
+				Avg Comparisons: 5020344
+				Max Comparisons: 5374301
+
+				Min Exchanges: 1166747
+				Avg Exchanges: 1177526
+				Max Exchanges: 1185518
+
+			Median of Three Partition:
+				Average Execution Time 0.13835 seconds
+
+				Min Comparisons: 4858972
+				Avg Comparisons: 5034313
+				Max Comparisons: 5300212
+
+				Min Exchanges: 1161676
+				Avg Exchanges: 1176637
+				Max Exchanges: 1186705
+
+			Three-way Partition:
+				Average Execution Time 0.18135 seconds
+
+				Min Comparisons: 4369919
+				Avg Comparisons: 4640559
+				Max Comparisons: 5041960
+
+				Min Exchanges: 4127938
+				Avg Exchanges: 4398579
+				Max Exchanges: 4799980
+
+		k = 14
+			Cutoff to Insertion:
+				Average Execution Time 0.12653 seconds
+
+				Min Comparisons: 4861847
+				Avg Comparisons: 5002490
+				Max Comparisons: 5251198
+
+				Min Exchanges: 1162575
+				Avg Exchanges: 1176623
+				Max Exchanges: 1185283
+
+			Median of Three Partition:
+				Average Execution Time 0.13183 seconds
+
+				Min Comparisons: 4853237
+				Avg Comparisons: 5014246
+				Max Comparisons: 5360483
+
+				Min Exchanges: 1161532
+				Avg Exchanges: 1175834
+				Max Exchanges: 1185229
+
+			Three-way Partition:
+				Average Execution Time 0.17024 seconds
+
+				Min Comparisons: 4358658
+				Avg Comparisons: 4620477
+				Max Comparisons: 5126849
+
+				Min Exchanges: 4115238
+				Avg Exchanges: 4377057
+				Max Exchanges: 4883429
+
+		k = 15
+			Cutoff to Insertion:
+				Average Execution Time 0.11688 seconds
+
+				Min Comparisons: 4835524
+				Avg Comparisons: 5011140
+				Max Comparisons: 5327141
+
+				Min Exchanges: 1155689
+				Avg Exchanges: 1174894
+				Max Exchanges: 1186189
+
+			Median of Three Partition:
+				Average Execution Time 0.12060 seconds
+
+				Min Comparisons: 4827772
+				Avg Comparisons: 4998544
+				Max Comparisons: 5275218
+
+				Min Exchanges: 1163680
+				Avg Exchanges: 1175450
+				Max Exchanges: 1185654
+
+			Three-way Partition:
+				Average Execution Time 0.16231 seconds
+
+				Min Comparisons: 4294393
+				Avg Comparisons: 4605836
+				Max Comparisons: 5491926
+
+				Min Exchanges: 4049725
+				Avg Exchanges: 4361168
+				Max Exchanges: 5247258
+
+		k = 16
+			Cutoff to Insertion:
+				Average Execution Time 0.11671 seconds
+
+				Min Comparisons: 4853926
+				Avg Comparisons: 5004172
+				Max Comparisons: 5341034
+
+				Min Exchanges: 1158489
+				Avg Exchanges: 1174192
+				Max Exchanges: 1183788
+
+			Median of Three Partition:
+				Average Execution Time 0.11903 seconds
+
+				Min Comparisons: 4868777
+				Avg Comparisons: 5009799
+				Max Comparisons: 5285106
+
+				Min Exchanges: 1159075
+				Avg Exchanges: 1173791
+				Max Exchanges: 1182258
+
+			Three-way Partition:
+				Average Execution Time 0.15529 seconds
+
+				Min Comparisons: 4256856
+				Avg Comparisons: 4566684
+				Max Comparisons: 5007551
+
+				Min Exchanges: 4011096
+				Avg Exchanges: 4320924
+				Max Exchanges: 4761791
