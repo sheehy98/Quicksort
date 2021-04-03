@@ -9,8 +9,6 @@ Between each sort the sets are shuffled so pre-sorted sets are not passed into t
 
 The code takes a while to run when T is large (we used 100 to ensure our results were outlier proof) because it has to create all of the datasets every time.
 
-The sorts were all taken from Sedgewick, our code is in the tester file
-
 The code assumes good input for number of tests and data set size
 
 To see the code in action, run tester.java and follow the prompts
