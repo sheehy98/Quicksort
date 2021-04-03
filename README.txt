@@ -1,5 +1,3 @@
-Our project is dependent on words.english.txt from hw4
-
 For every test T, 17 new data sets are created (doubles, strings, and ints from 0 to N/k from k = 2 to k = 16) and the three sorts are used on each data set
 
 The set of doubles is created using StdRandom.uniform(), the set of strings is created by placing all of the words in the dictionary into an array and then
